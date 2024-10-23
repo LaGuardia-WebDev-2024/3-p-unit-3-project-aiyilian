@@ -1,60 +1,310 @@
 <!--
 Requirements
-[  ] Two External Links
-[  ] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[Yes] Two External Links
+[Yes] Table
+[Yes] Three CSS Rules
+[Yes] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a :hover feature
-[ no ] Feature 2 - Include at least two Internal links
+[ Yes ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
 -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8" />
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+      body {
+        background-color: rgb(236, 227, 206);
+        color: rgb(58, 77, 57);
+      }
+      h2 {
+        color: rgb(79, 111, 82);
+      }
+      h1 {
+        color: rgb(79, 111, 82);
+      }
+      img {
+        border-radius: 5px;
+        border: 5px solid #739072;
+      }
+    </style>
+  </head>
 
-<head>
-  <title>Project: Recipe book</title>
-  <meta charset="utf-8">
-  <style>
-  </style>
-</head>
+  <body>
+    <h1>Chinese Cook Book</h1>
+ <img src="https://m.media-amazon.com/images/I/61YTPKVTBvS._AC_UF1000,1000_QL80_.jpg"
+      width="500">
+    <br>
+    <h2>Contents:</h2>
+    
+    <h4> <em>
+      Jump to Sections: 
+      <a href="#stir fry bok choy"> Stir Fry Bok Choy, </a>
+     
+      <a href="#egg fried rice"> Egg Fried Rice </a>
+      </em>
+    </h4>
 
-<body>
+    <table>
+      <thead>
+        <tr>
+          <th>Recipe</th>
+          <th>Prep Time</th>
+          <th>Overall Time</th>
+          <th>Serves</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Stir Fried Bok Choy</td>
+          <td>5 minutes</td>
+          <td>20 minutes</td>
+          <td>4 people</td>
+        </tr>
+        <tr>
+          <td>Egg Fried Rice</td>
+          <td>5 minutes</td>
+          <td>20 minutes</td>
+          <td>4 people</td>
+        </tr>
+        <tr></tr>
+      </tbody>
+    </table>
 
-  <h1>____'s Recipe Book</h1>
+    <h2> Stir Fry Bok Choy</h2>
 
-  <h2>Contents:</h2>
+    <img
+         src="https://static01.nyt.com/images/2011/09/21/science/23recipehealth/23recipehealth-superJumbo.jpg"
+         width="600" >
+    <ul>
+      <li>Time: 20 minutes</li>
+      <li>Serves: 4 people</li>
+    </ul>
 
-  <ol>
-    <li><a href="?">Recipe #1</a></li>
-  </ol>
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            baby bok choy (larger bok choy works too)<br />
+            garlic <br />
+            oil <br />
+            salt <br />
+            sugar <br />
+            chicken bullion (optional)
+          </td>
+          <td>
+            1 pound <br />
+            two cloves <br />
+            2 tbsp <br />
+            1/2 tsp <br />
+            1/2 tsp <br />
+            1/2 tsp <br />
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
-  <h2 id="?">Recipe #1</h2>
+    <p><strong>Step 1:</strong> Wash bok choy thoroughly</p>
+    <ul>
+      <li>
+        Peel away each individual stem, and toss them into a bowl of large water
+      </li>
+      <li>
+        Scrub your fingers along the bottom of each stem closest to the root.
+        Dirt usually accumulates here. Rinse under running water.
+      </li>
+      <li>If you have time, soak the bok choy in water for 30 minutes</li>
+    </ul>
 
-  <ul>
-    <li>Time: _</li>
-    <li>Serves: _</li>
-  </ul>
+    <p><strong>Step 2:</strong> Dry and trim bok choy</p>
+    <ul>
+      <li>
+        Drain the bok choy (1 lb) in a colander, and lay them flat onto a towel.
+        It's important that the bok choy is dry before stir-frying.
+      </li>
+      <li>Trim the bok choy by cutting the stalks in half length-wise.</li>
+      <li>
+        It is optional to seperate the stalks from the leaves, some people
+        prefer to cook the stalks first then the leaves
+      </li>
+    </ul>
+    <p><strong>Step 3:</strong> Mince garlic and heat wok and oil</p>
+    <ul>
+      <li>Heat the wok on high heat for 2-3 minutes</li>
+      <li>While the wok heats up, mince some garlic (2 cloves)</li>
+      <li>
+        Then, add oil (2 tbsp) until the oil is shimmering, or forming ripples
+        across the surface. It's important that the wok and oil get sufficiently
+        hot.
+      </li>
+    </ul>
+    <p><strong>Step 4:</strong> Stir fry garlic and bok choy</p>
+    <ul>
+      <li>Add the minced garlic,add the bok choy a few seconds later.</li>
+      <li>
+        Cook everything for 6-8 minutes or until the stalks soften up and the
+        leaves turn a deep vibrant green
+      </li>
+    </ul>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Ingredients</th>
-        <th>Quantity</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+    <p><strong>Step 5:</strong> Season and plate</p>
+    <ul>
+      <li>
+        Right before the heat turns off,add salt (0.50 tsp), sugar (0.50 tsp),
+        and chicken bouillon (0.50 tsp) (optional).
+      </li>
+      <li>
+        To stop the bok choy from overcooking, transfer them onto a plate
+        immediately.
+      </li>
+    </ul>
 
-  <p><strong>Step 1:</strong> Do something.
-  </p>
+    <h2> Egg Fried Rice </h2>
+    <img 
+         src="https://www.madewithlau.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2r0kdewr%2Fproduction%2F2c90f6410d47972d8555dd5ddcbcc47346957d43-1000x668.jpg&w=3840&q=75"
+         width="600">
+         
+       <ul>
+      <li>Time: 20 minutes</li>
+      <li>Serves: 4 people</li>
+    </ul>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>Ingredients</th>
+          <th>Quantity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            uncooked jasmine rice<br />
+            water <br />
+            green onion (just the green part) <br />
+            carrot <br />
+            frozen corn and peas <br />
+            salt <br />
+            water <br />
+            oil<br />
+            light soy sauce <br />
+            dark soy sauce <br />
+            salt <br />
+            chicken bouillon powder (optional) <br />
+          </td>
+          <td>
+            14 oz <br />
+            14 1/2 oz <br />
+            1 oz <br />
+            2 oz <br />
+            4 oz <br />
+            1/2 tsp <br />
+            2 tbsp <br />
+            2 tbsp <br />
+            1 tsp <br />
+            1/2 tsp <br />
+            1/2 tsp <br />
+            1 tsp <br />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><strong>Step 1:</strong> Wash and cook rice</p>
+    <ul>
+      <li>
+        Wash the rice (14 oz) three times, using fresh water after each rinse,
+        drain the rice thoroughly after the final rinse
+      </li>
 
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
-
-</body>
-
+      <li>
+        Add rice, followed by the water (14 oz) to a rice cooker and cook
+        according to rice cooker instructions
+      </li>
+      <li>
+        If you want the restraunt style fried rice texture, it is reccomended to
+        use day old refridgerated rice
+      </li>
+    </ul>
+    <p><strong>Step 2:</strong> Cut green onions and carrot</p>
+    <ul>
+      <li>
+        Cut the green parts off of the green onions (1 oz) and dice into small
+        pieces, save the whites to use in another dish
+      </li>
+      <li>Dice the carrot into small pieces</li>
+      <li>Combine carrots with the frozen corn and peas (4 oz) in bowl</li>
+    </ul>
+    <p><strong>Step 3:</strong> Crack and season eggs</p>
+    <ul>
+      <li>Crack the eggs (4 large) into a bowl</li>
+      <li>Season with the salt (0.50 teaspoon), then set aside</li>
+    </ul>
+    <p><strong>Step 4:</strong> Microwave veggies and fluff rice</p>
+    <ul>
+      <li>
+        Once the rice is done cooking, leave it covered to steam for 2
+        additional minutes
+      </li>
+      <li>
+        add the water (0.50 cup) to the bowl of vegetables and microwave for 2
+        minutes to cook. Drain out the excess water and set aside
+      </li>
+      <li>Use chopsticks to stir and fluff rice for 1 to 2 minutes.</li>
+    </ul>
+    <p><strong>Step 5:</strong> Stir fry and season</p>
+    <ul>
+      <li>
+        Heat the wok on high and beat the eggs, lower the heat to low and add
+        the oil (2 tablespoon), spread it across the wok surface to make sure
+        it's well coated
+      </li>
+      <li>
+        Add eggs and stir gently, cook them for about 20 to 30 seconds, add the
+        cooked rice on top of the eggs, flip and stir fry constantly, breaking
+        apart the clumps of rice and eggs with a wok spatula for about 2 minutes
+      </li>
+      <li>
+        Add mixed veggies, increase the heat to high, flip and stir fry for
+        another 2 to 3 minutes
+      </li>
+      <li>
+        In a small bowl, combine light soy sauce (1 tablespoon), dark soy sauce
+        (1 teaspoon), salt (0.50 teaspoon), sugar (0.50 teaspoon), and chicken
+        bouillon powder (1 teaspoon), and pour over the rice
+      </li>
+      <li>
+        Increase the heat to high and stir fry everything for another 2 to 3
+        minutes
+      </li>
+      <li>
+        Add the oil (1 tablespoon) and diced green onions, stir fry for another
+        minute , then turn the heat off and plate
+      </li>
+    </ul>
+    <p>
+      <em
+        >Source:
+        <a href="https://www.madewithlau.com/recipes/stir-fried-bok-choy"
+          >Made With Lau: Stir Fried Bok Choy
+        </a>
+      <a href="https://www.madewithlau.com/recipes/egg-fried-rice"> Made With Lau: Egg Fried Rice</a></em
+      >
+    </p>
+  </body>
 </html>
