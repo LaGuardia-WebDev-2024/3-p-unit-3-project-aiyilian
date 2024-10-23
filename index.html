@@ -2,12 +2,12 @@
 Requirements
 [Yes] Two External Links
 [Yes] Table
-[  ] Three CSS Rules
-[  ] Three Images
+[Yes] Three CSS Rules
+[Yes] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a :hover feature
-[ no ] Feature 2 - Include at least two Internal links
+[ Yes ] Feature 2 - Include at least two Internal links
 [ no ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
 -->
@@ -24,20 +24,35 @@ Select ONE Additional Feature to Add
         border: 1px solid;
       }
       body {
-        background-color: rgb(171, 209, 171);
+        background-color: rgb(236, 227, 206);
+        color: rgb(58, 77, 57);
+      }
+      h2 {
+        color: rgb(79, 111, 82);
+      }
+      h1 {
+        color: rgb(79, 111, 82);
+      }
+      img {
+        border-radius: 5px;
+        border: 5px solid #739072;
       }
     </style>
   </head>
 
   <body>
-    <h1>Mye's Recipe Book</h1>
-
+    <h1>Chinese Cook Book</h1>
+ <img src="https://m.media-amazon.com/images/I/61YTPKVTBvS._AC_UF1000,1000_QL80_.jpg"
+      width="500">
+    <br>
     <h2>Contents:</h2>
-    <h4>
-      Jump to Sections: <br />
+    
+    <h4> <em>
+      Jump to Sections: 
       <a href="#stir fry bok choy"> Stir Fry Bok Choy, </a>
-      <br />
+     
       <a href="#egg fried rice"> Egg Fried Rice </a>
+      </em>
     </h4>
 
     <table>
@@ -66,8 +81,11 @@ Select ONE Additional Feature to Add
       </tbody>
     </table>
 
-    <h2 id="stir fry bok choy">Recipe #1</h2>
+    <h2> Stir Fry Bok Choy</h2>
 
+    <img
+         src="https://static01.nyt.com/images/2011/09/21/science/23recipehealth/23recipehealth-superJumbo.jpg"
+         width="600" >
     <ul>
       <li>Time: 20 minutes</li>
       <li>Serves: 4 people</li>
@@ -157,24 +175,16 @@ Select ONE Additional Feature to Add
       </li>
     </ul>
 
-    <em
-      >Source: <br />
-
-      <a href="https://www.madewithlau.com/recipes/stir-fried-bok-choy">
-        Cooking with Lau Stir Fried Bok Choy,
-      </a>
-      <br />
-      <a href="https://www.madewithlau.com/recipes/egg-fried-rice">
-        Cooking with Lau: Egg Fried Rice
-      </a>
-    </em>
-    <h2 id="egg fried rice">Recipe #1</h2>
-
-    <ul>
+    <h2> Egg Fried Rice </h2>
+    <img 
+         src="https://www.madewithlau.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F2r0kdewr%2Fproduction%2F2c90f6410d47972d8555dd5ddcbcc47346957d43-1000x668.jpg&w=3840&q=75"
+         width="600">
+         
+       <ul>
       <li>Time: 20 minutes</li>
       <li>Serves: 4 people</li>
     </ul>
-
+    
     <table>
       <thead>
         <tr>
@@ -287,5 +297,14 @@ Select ONE Additional Feature to Add
         minute , then turn the heat off and plate
       </li>
     </ul>
+    <p>
+      <em
+        >Source:
+        <a href="https://www.madewithlau.com/recipes/stir-fried-bok-choy"
+          >Made With Lau: Stir Fried Bok Choy
+        </a>
+      <a href="https://www.madewithlau.com/recipes/egg-fried-rice"> Made With Lau: Egg Fried Rice</a></em
+      >
+    </p>
   </body>
 </html>
